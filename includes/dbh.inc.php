@@ -1,8 +1,8 @@
 <?php
 
-$dsn = "mysql:host=167.99.252.245;dbname=ESW2024_E7_NicolasDB";
-$dbusername = "ESW2024_E7";
-$dbpassword = "123mudar";
+$dsn = "mysql:host=;dbname=";
+$dbusername = "";
+$dbpassword = "";
 
 try {
     $pdo = new PDO($dsn, $dbusername, $dbpassword);
